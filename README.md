@@ -2,7 +2,6 @@
 
 ![Project Banner](fin_edge_results.png)
 
-> **Winner/Submission for PyTorch Dendritic Optimization Hackathon**
 
 ## 📉 The Problem
 Financial institutions spend millions on Cloud GPU clusters to analyze news sentiment for high-frequency trading. Standard LLMs like **BERT** are accurate but:
@@ -18,12 +17,12 @@ We utilized **Perforated AI's Dendritic Optimization** to surgically compress a 
 | :--- | :--- | :--- | :--- |
 | **Model Size** | 417.7 MB | **48.0 MB** | **📉 89% Smaller** |
 | **Inference Latency** | 4.6 ms | **0.6 ms** | **⚡ 7.6x Faster** |
-| **Accuracy** | 87.3% | **86.5%** | **✅ <1% Loss** |
+| **Accuracy** | 85.4% | **84.6%** | **✅ <1% Loss** |
 
 ## 🛠️ Tech Stack
 * **Model:** `ProsusAI/finbert` (Hugging Face)
 * **Optimization:** Perforated AI (Dendritic Splitting)
-* **Dataset:** Financial PhraseBank (Takala et al.)
+* **Dataset:** [Financial PhraseBank](https://www.kaggle.com/datasets/abdelhafidayaouump/financialphrasebank)
 * **Hardware:** Optimized for CPU / Edge Deployment
 
 ## 🚀 How to Run
