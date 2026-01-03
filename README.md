@@ -28,7 +28,7 @@ We utilized **Perforated AI's Dendritic Optimization** to surgically compress a 
 ## 🚀 How to Run
 ```bash
 # 1. Clone Repository
-git clone [https://github.com/siddi7/Fin-Edge.git]
+git clone [https://github.com/siddi7/FinEdge-Optimization.git]
 cd Fin-Edge
 
 # 2. Install Dependencies
